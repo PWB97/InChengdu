@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D130CB51FD2A96A00FA40F3 /* homeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D130CB31FD2A96900FA40F3 /* homeCell.swift */; };
+		8D130CB61FD2A96A00FA40F3 /* homeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D130CB41FD2A96900FA40F3 /* homeCell.xib */; };
+		8D130CBC1FD2A97F00FA40F3 /* 首页2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D130CB81FD2A97F00FA40F3 /* 首页2.png */; };
+		8D130CBD1FD2A97F00FA40F3 /* 首页3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D130CB91FD2A97F00FA40F3 /* 首页3.png */; };
+		8D130CBE1FD2A97F00FA40F3 /* 首页1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D130CBA1FD2A97F00FA40F3 /* 首页1.png */; };
+		8D130CBF1FD2A97F00FA40F3 /* Home.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D130CBB1FD2A97F00FA40F3 /* Home.plist */; };
+		8D1BFE781FC0473B005910D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BFE771FC0473B005910D5 /* AppDelegate.swift */; };
+		8D1BFE7F1FC0473B005910D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BFE7E1FC0473B005910D5 /* Assets.xcassets */; };
+		8D1BFE8B1FC06868005910D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BFE891FC06868005910D5 /* LoginViewController.swift */; };
+		8D1BFE8C1FC06868005910D5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BFE8A1FC06868005910D5 /* LoginViewController.xib */; };
+		8D50E5BF1FE6108500E67C47 /* recommendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D50E5BD1FE6108500E67C47 /* recommendCell.swift */; };
+		8D50E5C01FE6108500E67C47 /* recommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5BE1FE6108500E67C47 /* recommendCell.xib */; };
+		8D50E5D71FE6119A00E67C47 /* winshare_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C31FE6119A00E67C47 /* winshare_detail.png */; };
+		8D50E5D81FE6119A00E67C47 /* 推荐：轩客会.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C41FE6119A00E67C47 /* 推荐：轩客会.txt */; };
+		8D50E5D91FE6119A00E67C47 /* winshare_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C51FE6119A00E67C47 /* winshare_logo.png */; };
+		8D50E5DA1FE6119A00E67C47 /* 推荐：theplace.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C71FE6119A00E67C47 /* 推荐：theplace.txt */; };
+		8D50E5DB1FE6119A00E67C47 /* theplace_coffee_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C81FE6119A00E67C47 /* theplace_coffee_detail.png */; };
+		8D50E5DC1FE6119A00E67C47 /* theplace_coffee_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5C91FE6119A00E67C47 /* theplace_coffee_logo.png */; };
+		8D50E5DD1FE6119A00E67C47 /* 推荐：星巴克.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5CB1FE6119A00E67C47 /* 推荐：星巴克.txt */; };
+		8D50E5DE1FE6119A00E67C47 /* starbucks_coffee_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5CC1FE6119A00E67C47 /* starbucks_coffee_logo.png */; };
+		8D50E5DF1FE6119A00E67C47 /* starbucks_coffee_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5CD1FE6119A00E67C47 /* starbucks_coffee_detail.png */; };
+		8D50E5E01FE6119A00E67C47 /* recommend.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5CE1FE6119A00E67C47 /* recommend.plist */; };
+		8D50E5E11FE6119A00E67C47 /* man_coffee_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D01FE6119A00E67C47 /* man_coffee_detail.png */; };
+		8D50E5E21FE6119A00E67C47 /* man_coffee_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D11FE6119A00E67C47 /* man_coffee_logo.png */; };
+		8D50E5E31FE6119A00E67C47 /* 推荐：漫咖啡.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D21FE6119A00E67C47 /* 推荐：漫咖啡.txt */; };
+		8D50E5E41FE6119A00E67C47 /* goodwoods_coffee.detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D41FE6119A00E67C47 /* goodwoods_coffee.detail.png */; };
+		8D50E5E51FE6119A00E67C47 /* 推荐：良木缘.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D51FE6119A00E67C47 /* 推荐：良木缘.txt */; };
+		8D50E5E61FE6119A00E67C47 /* goodwoods_coffee_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5D61FE6119A00E67C47 /* goodwoods_coffee_logo.png */; };
+		8D50E5E81FE61C3400E67C47 /* detailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D50E5E71FE61C3400E67C47 /* detailController.swift */; };
+		8D50E5EA1FE64B0A00E67C47 /* musicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D50E5E91FE64B0A00E67C47 /* musicPlayer.swift */; };
+		8D50E5EC1FE65CFA00E67C47 /* Xenogenesis.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5EB1FE65CFA00E67C47 /* Xenogenesis.mp3 */; };
+		8D50E5EE1FE6924700E67C47 /* Paradise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D50E5ED1FE6924700E67C47 /* Paradise.mp3 */; };
+		8D7F17411FE17E1500F37564 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7F173F1FE17E1500F37564 /* logo3.png */; };
+		8D7F17421FE17E1500F37564 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7F17401FE17E1500F37564 /* logo.png */; };
+		8D9D40411FDBD42F008A4ACC /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D9D403E1FDBD42F008A4ACC /* background.mp3 */; };
+		8DC7489E1FDB745B00FDA878 /* 锦里1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748801FDB745B00FDA878 /* 锦里1.jpg */; };
+		8DC7489F1FDB745B00FDA878 /* 锦里2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748811FDB745B00FDA878 /* 锦里2.jpg */; };
+		8DC748A01FDB745B00FDA878 /* 锦里.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748821FDB745B00FDA878 /* 锦里.jpg */; };
+		8DC748A11FDB745B00FDA878 /* 锦里3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748831FDB745B00FDA878 /* 锦里3.jpg */; };
+		8DC748A21FDB745B00FDA878 /* 欢乐谷3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748851FDB745B00FDA878 /* 欢乐谷3.jpg */; };
+		8DC748A31FDB745B00FDA878 /* 欢乐谷2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748861FDB745B00FDA878 /* 欢乐谷2.jpg */; };
+		8DC748A41FDB745B00FDA878 /* 欢乐谷1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748871FDB745B00FDA878 /* 欢乐谷1.jpg */; };
+		8DC748A51FDB745B00FDA878 /* 欢乐谷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748881FDB745B00FDA878 /* 欢乐谷.jpg */; };
+		8DC748A61FDB745B00FDA878 /* 宽窄巷子1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7488A1FDB745B00FDA878 /* 宽窄巷子1.jpg */; };
+		8DC748A71FDB745B00FDA878 /* 宽窄巷子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7488B1FDB745B00FDA878 /* 宽窄巷子.jpg */; };
+		8DC748A81FDB745B00FDA878 /* 宽窄巷子3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7488C1FDB745B00FDA878 /* 宽窄巷子3.jpg */; };
+		8DC748A91FDB745B00FDA878 /* 宽窄巷子2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7488D1FDB745B00FDA878 /* 宽窄巷子2.jpg */; };
+		8DC748AA1FDB745B00FDA878 /* 武侯祠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7488F1FDB745B00FDA878 /* 武侯祠.jpg */; };
+		8DC748AB1FDB745B00FDA878 /* 武侯祠2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748901FDB745B00FDA878 /* 武侯祠2.jpg */; };
+		8DC748AC1FDB745B00FDA878 /* 武侯祠3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748911FDB745B00FDA878 /* 武侯祠3.jpg */; };
+		8DC748AD1FDB745B00FDA878 /* 武侯祠1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748921FDB745B00FDA878 /* 武侯祠1.jpg */; };
+		8DC748AE1FDB745B00FDA878 /* 熊猫基地3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748941FDB745B00FDA878 /* 熊猫基地3.jpg */; };
+		8DC748AF1FDB745B00FDA878 /* 熊猫基地2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748951FDB745B00FDA878 /* 熊猫基地2.jpg */; };
+		8DC748B01FDB745B00FDA878 /* 熊猫基地1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748961FDB745B00FDA878 /* 熊猫基地1.jpg */; };
+		8DC748B11FDB745B00FDA878 /* 熊猫基地.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748971FDB745B00FDA878 /* 熊猫基地.jpg */; };
+		8DC748B21FDB745B00FDA878 /* 杜甫草堂1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748991FDB745B00FDA878 /* 杜甫草堂1.jpg */; };
+		8DC748B31FDB745B00FDA878 /* 杜甫草堂2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7489A1FDB745B00FDA878 /* 杜甫草堂2.jpg */; };
+		8DC748B41FDB745B00FDA878 /* 杜甫草堂3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7489B1FDB745B00FDA878 /* 杜甫草堂3.jpg */; };
+		8DC748B51FDB745B00FDA878 /* 杜甫草堂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7489C1FDB745B00FDA878 /* 杜甫草堂.jpg */; };
+		8DC748B61FDB745B00FDA878 /* viewSpot.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DC7489D1FDB745B00FDA878 /* viewSpot.plist */; };
+		8DC748C11FDB811C00FDA878 /* funVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC748BF1FDB811C00FDA878 /* funVCCell.swift */; };
+		8DC748C21FDB811C00FDA878 /* funVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC748C01FDB811C00FDA878 /* funVCCell.xib */; };
+		8DC748C41FDB8D2100FDA878 /* DisDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC748C31FDB8D2100FDA878 /* DisDetailViewController.swift */; };
+		8DC993691FC98F8100D0B8F2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC993681FC98F8100D0B8F2 /* TabBarController.swift */; };
+		8DC9936C1FC9903300D0B8F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9936A1FC9903300D0B8F2 /* HomeViewController.swift */; };
+		8DC993721FC990B200D0B8F2 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC993701FC990B200D0B8F2 /* RecommendViewController.swift */; };
+		8DC993781FC9910000D0B8F2 /* FunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC993761FC9910000D0B8F2 /* FunViewController.swift */; };
+		8DC9937C1FC9911800D0B8F2 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9937A1FC9911800D0B8F2 /* MusicViewController.swift */; };
+		8DC9937D1FC9911800D0B8F2 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC9937B1FC9911800D0B8F2 /* MusicViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D130CB31FD2A96900FA40F3 /* homeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeCell.swift; sourceTree = "<group>"; };
+		8D130CB41FD2A96900FA40F3 /* homeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeCell.xib; sourceTree = "<group>"; };
+		8D130CB81FD2A97F00FA40F3 /* 首页2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页2.png"; sourceTree = "<group>"; };
+		8D130CB91FD2A97F00FA40F3 /* 首页3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页3.png"; sourceTree = "<group>"; };
+		8D130CBA1FD2A97F00FA40F3 /* 首页1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页1.png"; sourceTree = "<group>"; };
+		8D130CBB1FD2A97F00FA40F3 /* Home.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Home.plist; sourceTree = "<group>"; };
+		8D1BFE741FC0473B005910D5 /* 成都生活展.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "成都生活展.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BFE771FC0473B005910D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D1BFE7E1FC0473B005910D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D1BFE831FC0473B005910D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1BFE891FC06868005910D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8D1BFE8A1FC06868005910D5 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8D50E5BD1FE6108500E67C47 /* recommendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recommendCell.swift; sourceTree = "<group>"; };
+		8D50E5BE1FE6108500E67C47 /* recommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recommendCell.xib; sourceTree = "<group>"; };
+		8D50E5C31FE6119A00E67C47 /* winshare_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winshare_detail.png; sourceTree = "<group>"; };
+		8D50E5C41FE6119A00E67C47 /* 推荐：轩客会.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "推荐：轩客会.txt"; sourceTree = "<group>"; };
+		8D50E5C51FE6119A00E67C47 /* winshare_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winshare_logo.png; sourceTree = "<group>"; };
+		8D50E5C71FE6119A00E67C47 /* 推荐：theplace.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "推荐：theplace.txt"; sourceTree = "<group>"; };
+		8D50E5C81FE6119A00E67C47 /* theplace_coffee_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theplace_coffee_detail.png; sourceTree = "<group>"; };
+		8D50E5C91FE6119A00E67C47 /* theplace_coffee_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theplace_coffee_logo.png; sourceTree = "<group>"; };
+		8D50E5CB1FE6119A00E67C47 /* 推荐：星巴克.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "推荐：星巴克.txt"; sourceTree = "<group>"; };
+		8D50E5CC1FE6119A00E67C47 /* starbucks_coffee_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks_coffee_logo.png; sourceTree = "<group>"; };
+		8D50E5CD1FE6119A00E67C47 /* starbucks_coffee_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks_coffee_detail.png; sourceTree = "<group>"; };
+		8D50E5CE1FE6119A00E67C47 /* recommend.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recommend.plist; sourceTree = "<group>"; };
+		8D50E5D01FE6119A00E67C47 /* man_coffee_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man_coffee_detail.png; sourceTree = "<group>"; };
+		8D50E5D11FE6119A00E67C47 /* man_coffee_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man_coffee_logo.png; sourceTree = "<group>"; };
+		8D50E5D21FE6119A00E67C47 /* 推荐：漫咖啡.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "推荐：漫咖啡.txt"; sourceTree = "<group>"; };
+		8D50E5D41FE6119A00E67C47 /* goodwoods_coffee.detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goodwoods_coffee.detail.png; sourceTree = "<group>"; };
+		8D50E5D51FE6119A00E67C47 /* 推荐：良木缘.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "推荐：良木缘.txt"; sourceTree = "<group>"; };
+		8D50E5D61FE6119A00E67C47 /* goodwoods_coffee_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goodwoods_coffee_logo.png; sourceTree = "<group>"; };
+		8D50E5E71FE61C3400E67C47 /* detailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailController.swift; sourceTree = "<group>"; };
+		8D50E5E91FE64B0A00E67C47 /* musicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicPlayer.swift; sourceTree = "<group>"; };
+		8D50E5EB1FE65CFA00E67C47 /* Xenogenesis.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Xenogenesis.mp3; sourceTree = "<group>"; };
+		8D50E5ED1FE6924700E67C47 /* Paradise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Paradise.mp3; sourceTree = "<group>"; };
+		8D7F173F1FE17E1500F37564 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+		8D7F17401FE17E1500F37564 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8D9D403E1FDBD42F008A4ACC /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
+		8DC748801FDB745B00FDA878 /* 锦里1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "锦里1.jpg"; sourceTree = "<group>"; };
+		8DC748811FDB745B00FDA878 /* 锦里2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "锦里2.jpg"; sourceTree = "<group>"; };
+		8DC748821FDB745B00FDA878 /* 锦里.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "锦里.jpg"; sourceTree = "<group>"; };
+		8DC748831FDB745B00FDA878 /* 锦里3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "锦里3.jpg"; sourceTree = "<group>"; };
+		8DC748851FDB745B00FDA878 /* 欢乐谷3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欢乐谷3.jpg"; sourceTree = "<group>"; };
+		8DC748861FDB745B00FDA878 /* 欢乐谷2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欢乐谷2.jpg"; sourceTree = "<group>"; };
+		8DC748871FDB745B00FDA878 /* 欢乐谷1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欢乐谷1.jpg"; sourceTree = "<group>"; };
+		8DC748881FDB745B00FDA878 /* 欢乐谷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "欢乐谷.jpg"; sourceTree = "<group>"; };
+		8DC7488A1FDB745B00FDA878 /* 宽窄巷子1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽窄巷子1.jpg"; sourceTree = "<group>"; };
+		8DC7488B1FDB745B00FDA878 /* 宽窄巷子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽窄巷子.jpg"; sourceTree = "<group>"; };
+		8DC7488C1FDB745B00FDA878 /* 宽窄巷子3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽窄巷子3.jpg"; sourceTree = "<group>"; };
+		8DC7488D1FDB745B00FDA878 /* 宽窄巷子2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宽窄巷子2.jpg"; sourceTree = "<group>"; };
+		8DC7488F1FDB745B00FDA878 /* 武侯祠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武侯祠.jpg"; sourceTree = "<group>"; };
+		8DC748901FDB745B00FDA878 /* 武侯祠2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武侯祠2.jpg"; sourceTree = "<group>"; };
+		8DC748911FDB745B00FDA878 /* 武侯祠3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武侯祠3.jpg"; sourceTree = "<group>"; };
+		8DC748921FDB745B00FDA878 /* 武侯祠1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "武侯祠1.jpg"; sourceTree = "<group>"; };
+		8DC748941FDB745B00FDA878 /* 熊猫基地3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "熊猫基地3.jpg"; sourceTree = "<group>"; };
+		8DC748951FDB745B00FDA878 /* 熊猫基地2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "熊猫基地2.jpg"; sourceTree = "<group>"; };
+		8DC748961FDB745B00FDA878 /* 熊猫基地1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "熊猫基地1.jpg"; sourceTree = "<group>"; };
+		8DC748971FDB745B00FDA878 /* 熊猫基地.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "熊猫基地.jpg"; sourceTree = "<group>"; };
+		8DC748991FDB745B00FDA878 /* 杜甫草堂1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜甫草堂1.jpg"; sourceTree = "<group>"; };
+		8DC7489A1FDB745B00FDA878 /* 杜甫草堂2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜甫草堂2.jpg"; sourceTree = "<group>"; };
+		8DC7489B1FDB745B00FDA878 /* 杜甫草堂3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜甫草堂3.jpg"; sourceTree = "<group>"; };
+		8DC7489C1FDB745B00FDA878 /* 杜甫草堂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杜甫草堂.jpg"; sourceTree = "<group>"; };
+		8DC7489D1FDB745B00FDA878 /* viewSpot.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = viewSpot.plist; sourceTree = "<group>"; };
+		8DC748BF1FDB811C00FDA878 /* funVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funVCCell.swift; sourceTree = "<group>"; };
+		8DC748C01FDB811C00FDA878 /* funVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = funVCCell.xib; sourceTree = "<group>"; };
+		8DC748C31FDB8D2100FDA878 /* DisDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisDetailViewController.swift; sourceTree = "<group>"; };
+		8DC993681FC98F8100D0B8F2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8DC9936A1FC9903300D0B8F2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8DC993701FC990B200D0B8F2 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		8DC993761FC9910000D0B8F2 /* FunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunViewController.swift; sourceTree = "<group>"; };
+		8DC9937A1FC9911800D0B8F2 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		8DC9937B1FC9911800D0B8F2 /* MusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1BFE711FC0473B005910D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D130CB71FD2A97F00FA40F3 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				8D130CB81FD2A97F00FA40F3 /* 首页2.png */,
+				8D130CB91FD2A97F00FA40F3 /* 首页3.png */,
+				8D130CBA1FD2A97F00FA40F3 /* 首页1.png */,
+				8D130CBB1FD2A97F00FA40F3 /* Home.plist */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		8D1BFE6B1FC0473B005910D5 = {
+			isa = PBXGroup;
+			children = (
+				8D1BFE761FC0473B005910D5 /* 成都生活展 */,
+				8D1BFE751FC0473B005910D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1BFE751FC0473B005910D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BFE741FC0473B005910D5 /* 成都生活展.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1BFE761FC0473B005910D5 /* 成都生活展 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC748B81FDB804B00FDA878 /* Main */,
+				8DC748B71FDB803300FDA878 /* Login */,
+				8DC748B91FDB808F00FDA878 /* Home */,
+				8DC748BA1FDB809D00FDA878 /* Recommend */,
+				8DC748BB1FDB80B500FDA878 /* Fun */,
+				8DC748BC1FDB80C100FDA878 /* Music */,
+				8D130CB71FD2A97F00FA40F3 /* 首页 */,
+				8D9D403B1FDBD42F008A4ACC /* 音乐 */,
+				8DC7487E1FDB745B00FDA878 /* 景点 */,
+				8D7F173E1FE17E1500F37564 /* 登录logo */,
+				8D50E5C11FE6119A00E67C47 /* 推荐 */,
+				8D1BFE831FC0473B005910D5 /* Info.plist */,
+				8D1BFE7E1FC0473B005910D5 /* Assets.xcassets */,
+			);
+			path = "成都生活展";
+			sourceTree = "<group>";
+		};
+		8D50E5C11FE6119A00E67C47 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5C21FE6119A00E67C47 /* 推荐：轩客会 */,
+				8D50E5C61FE6119A00E67C47 /* 推荐：theplace */,
+				8D50E5CA1FE6119A00E67C47 /* 推荐：星巴克 */,
+				8D50E5CE1FE6119A00E67C47 /* recommend.plist */,
+				8D50E5CF1FE6119A00E67C47 /* 推荐：漫咖啡 */,
+				8D50E5D31FE6119A00E67C47 /* 推荐：良木缘 */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		8D50E5C21FE6119A00E67C47 /* 推荐：轩客会 */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5C31FE6119A00E67C47 /* winshare_detail.png */,
+				8D50E5C41FE6119A00E67C47 /* 推荐：轩客会.txt */,
+				8D50E5C51FE6119A00E67C47 /* winshare_logo.png */,
+			);
+			path = "推荐：轩客会";
+			sourceTree = "<group>";
+		};
+		8D50E5C61FE6119A00E67C47 /* 推荐：theplace */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5C71FE6119A00E67C47 /* 推荐：theplace.txt */,
+				8D50E5C81FE6119A00E67C47 /* theplace_coffee_detail.png */,
+				8D50E5C91FE6119A00E67C47 /* theplace_coffee_logo.png */,
+			);
+			path = "推荐：theplace";
+			sourceTree = "<group>";
+		};
+		8D50E5CA1FE6119A00E67C47 /* 推荐：星巴克 */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5CB1FE6119A00E67C47 /* 推荐：星巴克.txt */,
+				8D50E5CC1FE6119A00E67C47 /* starbucks_coffee_logo.png */,
+				8D50E5CD1FE6119A00E67C47 /* starbucks_coffee_detail.png */,
+			);
+			path = "推荐：星巴克";
+			sourceTree = "<group>";
+		};
+		8D50E5CF1FE6119A00E67C47 /* 推荐：漫咖啡 */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5D01FE6119A00E67C47 /* man_coffee_detail.png */,
+				8D50E5D11FE6119A00E67C47 /* man_coffee_logo.png */,
+				8D50E5D21FE6119A00E67C47 /* 推荐：漫咖啡.txt */,
+			);
+			path = "推荐：漫咖啡";
+			sourceTree = "<group>";
+		};
+		8D50E5D31FE6119A00E67C47 /* 推荐：良木缘 */ = {
+			isa = PBXGroup;
+			children = (
+				8D50E5D41FE6119A00E67C47 /* goodwoods_coffee.detail.png */,
+				8D50E5D51FE6119A00E67C47 /* 推荐：良木缘.txt */,
+				8D50E5D61FE6119A00E67C47 /* goodwoods_coffee_logo.png */,
+			);
+			path = "推荐：良木缘";
+			sourceTree = "<group>";
+		};
+		8D7F173E1FE17E1500F37564 /* 登录logo */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F173F1FE17E1500F37564 /* logo3.png */,
+				8D7F17401FE17E1500F37564 /* logo.png */,
+			);
+			path = "登录logo";
+			sourceTree = "<group>";
+		};
+		8D9D403B1FDBD42F008A4ACC /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				8D9D403E1FDBD42F008A4ACC /* background.mp3 */,
+				8D50E5EB1FE65CFA00E67C47 /* Xenogenesis.mp3 */,
+				8D50E5ED1FE6924700E67C47 /* Paradise.mp3 */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		8DC7487E1FDB745B00FDA878 /* 景点 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC7487F1FDB745B00FDA878 /* 锦里 */,
+				8DC748841FDB745B00FDA878 /* 欢乐谷 */,
+				8DC748891FDB745B00FDA878 /* 宽窄巷子 */,
+				8DC7488E1FDB745B00FDA878 /* 武侯祠 */,
+				8DC748931FDB745B00FDA878 /* 熊猫基地 */,
+				8DC748981FDB745B00FDA878 /* 杜甫草堂 */,
+				8DC7489D1FDB745B00FDA878 /* viewSpot.plist */,
+			);
+			path = "景点";
+			sourceTree = "<group>";
+		};
+		8DC7487F1FDB745B00FDA878 /* 锦里 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC748801FDB745B00FDA878 /* 锦里1.jpg */,
+				8DC748811FDB745B00FDA878 /* 锦里2.jpg */,
+				8DC748821FDB745B00FDA878 /* 锦里.jpg */,
+				8DC748831FDB745B00FDA878 /* 锦里3.jpg */,
+			);
+			path = "锦里";
+			sourceTree = "<group>";
+		};
+		8DC748841FDB745B00FDA878 /* 欢乐谷 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC748851FDB745B00FDA878 /* 欢乐谷3.jpg */,
+				8DC748861FDB745B00FDA878 /* 欢乐谷2.jpg */,
+				8DC748871FDB745B00FDA878 /* 欢乐谷1.jpg */,
+				8DC748881FDB745B00FDA878 /* 欢乐谷.jpg */,
+			);
+			path = "欢乐谷";
+			sourceTree = "<group>";
+		};
+		8DC748891FDB745B00FDA878 /* 宽窄巷子 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC7488A1FDB745B00FDA878 /* 宽窄巷子1.jpg */,
+				8DC7488B1FDB745B00FDA878 /* 宽窄巷子.jpg */,
+				8DC7488C1FDB745B00FDA878 /* 宽窄巷子3.jpg */,
+				8DC7488D1FDB745B00FDA878 /* 宽窄巷子2.jpg */,
+			);
+			path = "宽窄巷子";
+			sourceTree = "<group>";
+		};
+		8DC7488E1FDB745B00FDA878 /* 武侯祠 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC7488F1FDB745B00FDA878 /* 武侯祠.jpg */,
+				8DC748901FDB745B00FDA878 /* 武侯祠2.jpg */,
+				8DC748911FDB745B00FDA878 /* 武侯祠3.jpg */,
+				8DC748921FDB745B00FDA878 /* 武侯祠1.jpg */,
+			);
+			path = "武侯祠";
+			sourceTree = "<group>";
+		};
+		8DC748931FDB745B00FDA878 /* 熊猫基地 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC748941FDB745B00FDA878 /* 熊猫基地3.jpg */,
+				8DC748951FDB745B00FDA878 /* 熊猫基地2.jpg */,
+				8DC748961FDB745B00FDA878 /* 熊猫基地1.jpg */,
+				8DC748971FDB745B00FDA878 /* 熊猫基地.jpg */,
+			);
+			path = "熊猫基地";
+			sourceTree = "<group>";
+		};
+		8DC748981FDB745B00FDA878 /* 杜甫草堂 */ = {
+			isa = PBXGroup;
+			children = (
+				8DC748991FDB745B00FDA878 /* 杜甫草堂1.jpg */,
+				8DC7489A1FDB745B00FDA878 /* 杜甫草堂2.jpg */,
+				8DC7489B1FDB745B00FDA878 /* 杜甫草堂3.jpg */,
+				8DC7489C1FDB745B00FDA878 /* 杜甫草堂.jpg */,
+			);
+			path = "杜甫草堂";
+			sourceTree = "<group>";
+		};
+		8DC748B71FDB803300FDA878 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BFE891FC06868005910D5 /* LoginViewController.swift */,
+				8D1BFE8A1FC06868005910D5 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8DC748B81FDB804B00FDA878 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BFE771FC0473B005910D5 /* AppDelegate.swift */,
+				8DC993681FC98F8100D0B8F2 /* TabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8DC748B91FDB808F00FDA878 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DC9936A1FC9903300D0B8F2 /* HomeViewController.swift */,
+				8D130CB31FD2A96900FA40F3 /* homeCell.swift */,
+				8D130CB41FD2A96900FA40F3 /* homeCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DC748BA1FDB809D00FDA878 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				8DC993701FC990B200D0B8F2 /* RecommendViewController.swift */,
+				8D50E5BD1FE6108500E67C47 /* recommendCell.swift */,
+				8D50E5BE1FE6108500E67C47 /* recommendCell.xib */,
+				8D50E5E71FE61C3400E67C47 /* detailController.swift */,
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		8DC748BB1FDB80B500FDA878 /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+				8DC993761FC9910000D0B8F2 /* FunViewController.swift */,
+				8DC748BF1FDB811C00FDA878 /* funVCCell.swift */,
+				8DC748C01FDB811C00FDA878 /* funVCCell.xib */,
+				8DC748C31FDB8D2100FDA878 /* DisDetailViewController.swift */,
+			);
+			path = Fun;
+			sourceTree = "<group>";
+		};
+		8DC748BC1FDB80C100FDA878 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8DC9937A1FC9911800D0B8F2 /* MusicViewController.swift */,
+				8DC9937B1FC9911800D0B8F2 /* MusicViewController.xib */,
+				8D50E5E91FE64B0A00E67C47 /* musicPlayer.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1BFE731FC0473B005910D5 /* 成都生活展 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1BFE861FC0473B005910D5 /* Build configuration list for PBXNativeTarget "成都生活展" */;
+			buildPhases = (
+				8D1BFE701FC0473B005910D5 /* Sources */,
+				8D1BFE711FC0473B005910D5 /* Frameworks */,
+				8D1BFE721FC0473B005910D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "成都生活展";
+			productName = "成都生活展";
+			productReference = 8D1BFE741FC0473B005910D5 /* 成都生活展.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D1BFE6C1FC0473B005910D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = pu;
+				TargetAttributes = {
+					8D1BFE731FC0473B005910D5 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D1BFE6F1FC0473B005910D5 /* Build configuration list for PBXProject "成都生活展" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D1BFE6B1FC0473B005910D5;
+			productRefGroup = 8D1BFE751FC0473B005910D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1BFE731FC0473B005910D5 /* 成都生活展 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1BFE721FC0473B005910D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC7489F1FDB745B00FDA878 /* 锦里2.jpg in Resources */,
+				8DC748AA1FDB745B00FDA878 /* 武侯祠.jpg in Resources */,
+				8DC9937D1FC9911800D0B8F2 /* MusicViewController.xib in Resources */,
+				8DC748B61FDB745B00FDA878 /* viewSpot.plist in Resources */,
+				8D50E5E61FE6119A00E67C47 /* goodwoods_coffee_logo.png in Resources */,
+				8D130CBC1FD2A97F00FA40F3 /* 首页2.png in Resources */,
+				8DC748A51FDB745B00FDA878 /* 欢乐谷.jpg in Resources */,
+				8D130CBF1FD2A97F00FA40F3 /* Home.plist in Resources */,
+				8D1BFE8C1FC06868005910D5 /* LoginViewController.xib in Resources */,
+				8D50E5DB1FE6119A00E67C47 /* theplace_coffee_detail.png in Resources */,
+				8D50E5E01FE6119A00E67C47 /* recommend.plist in Resources */,
+				8DC748AD1FDB745B00FDA878 /* 武侯祠1.jpg in Resources */,
+				8D50E5D81FE6119A00E67C47 /* 推荐：轩客会.txt in Resources */,
+				8D50E5E41FE6119A00E67C47 /* goodwoods_coffee.detail.png in Resources */,
+				8DC748B01FDB745B00FDA878 /* 熊猫基地1.jpg in Resources */,
+				8DC748A41FDB745B00FDA878 /* 欢乐谷1.jpg in Resources */,
+				8D50E5DF1FE6119A00E67C47 /* starbucks_coffee_detail.png in Resources */,
+				8D7F17421FE17E1500F37564 /* logo.png in Resources */,
+				8DC748B51FDB745B00FDA878 /* 杜甫草堂.jpg in Resources */,
+				8DC748C21FDB811C00FDA878 /* funVCCell.xib in Resources */,
+				8DC748B11FDB745B00FDA878 /* 熊猫基地.jpg in Resources */,
+				8D50E5EC1FE65CFA00E67C47 /* Xenogenesis.mp3 in Resources */,
+				8DC748B21FDB745B00FDA878 /* 杜甫草堂1.jpg in Resources */,
+				8D50E5C01FE6108500E67C47 /* recommendCell.xib in Resources */,
+				8D50E5DA1FE6119A00E67C47 /* 推荐：theplace.txt in Resources */,
+				8DC748A01FDB745B00FDA878 /* 锦里.jpg in Resources */,
+				8D50E5DD1FE6119A00E67C47 /* 推荐：星巴克.txt in Resources */,
+				8DC748AE1FDB745B00FDA878 /* 熊猫基地3.jpg in Resources */,
+				8DC748A71FDB745B00FDA878 /* 宽窄巷子.jpg in Resources */,
+				8DC748B31FDB745B00FDA878 /* 杜甫草堂2.jpg in Resources */,
+				8DC748A81FDB745B00FDA878 /* 宽窄巷子3.jpg in Resources */,
+				8D1BFE7F1FC0473B005910D5 /* Assets.xcassets in Resources */,
+				8DC748A31FDB745B00FDA878 /* 欢乐谷2.jpg in Resources */,
+				8DC748B41FDB745B00FDA878 /* 杜甫草堂3.jpg in Resources */,
+				8D50E5D71FE6119A00E67C47 /* winshare_detail.png in Resources */,
+				8DC748AC1FDB745B00FDA878 /* 武侯祠3.jpg in Resources */,
+				8DC7489E1FDB745B00FDA878 /* 锦里1.jpg in Resources */,
+				8D130CBE1FD2A97F00FA40F3 /* 首页1.png in Resources */,
+				8DC748A91FDB745B00FDA878 /* 宽窄巷子2.jpg in Resources */,
+				8D50E5E31FE6119A00E67C47 /* 推荐：漫咖啡.txt in Resources */,
+				8D50E5E21FE6119A00E67C47 /* man_coffee_logo.png in Resources */,
+				8D50E5D91FE6119A00E67C47 /* winshare_logo.png in Resources */,
+				8D130CB61FD2A96A00FA40F3 /* homeCell.xib in Resources */,
+				8DC748A61FDB745B00FDA878 /* 宽窄巷子1.jpg in Resources */,
+				8D50E5E11FE6119A00E67C47 /* man_coffee_detail.png in Resources */,
+				8DC748A21FDB745B00FDA878 /* 欢乐谷3.jpg in Resources */,
+				8DC748A11FDB745B00FDA878 /* 锦里3.jpg in Resources */,
+				8D130CBD1FD2A97F00FA40F3 /* 首页3.png in Resources */,
+				8D50E5E51FE6119A00E67C47 /* 推荐：良木缘.txt in Resources */,
+				8D50E5DE1FE6119A00E67C47 /* starbucks_coffee_logo.png in Resources */,
+				8D7F17411FE17E1500F37564 /* logo3.png in Resources */,
+				8D50E5EE1FE6924700E67C47 /* Paradise.mp3 in Resources */,
+				8DC748AF1FDB745B00FDA878 /* 熊猫基地2.jpg in Resources */,
+				8D50E5DC1FE6119A00E67C47 /* theplace_coffee_logo.png in Resources */,
+				8D9D40411FDBD42F008A4ACC /* background.mp3 in Resources */,
+				8DC748AB1FDB745B00FDA878 /* 武侯祠2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1BFE701FC0473B005910D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BFE8B1FC06868005910D5 /* LoginViewController.swift in Sources */,
+				8DC9937C1FC9911800D0B8F2 /* MusicViewController.swift in Sources */,
+				8DC748C41FDB8D2100FDA878 /* DisDetailViewController.swift in Sources */,
+				8D130CB51FD2A96A00FA40F3 /* homeCell.swift in Sources */,
+				8DC993691FC98F8100D0B8F2 /* TabBarController.swift in Sources */,
+				8DC993781FC9910000D0B8F2 /* FunViewController.swift in Sources */,
+				8DC748C11FDB811C00FDA878 /* funVCCell.swift in Sources */,
+				8D50E5EA1FE64B0A00E67C47 /* musicPlayer.swift in Sources */,
+				8D1BFE781FC0473B005910D5 /* AppDelegate.swift in Sources */,
+				8D50E5E81FE61C3400E67C47 /* detailController.swift in Sources */,
+				8DC9936C1FC9903300D0B8F2 /* HomeViewController.swift in Sources */,
+				8DC993721FC990B200D0B8F2 /* RecommendViewController.swift in Sources */,
+				8D50E5BF1FE6108500E67C47 /* recommendCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D1BFE841FC0473B005910D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D1BFE851FC0473B005910D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D1BFE871FC0473B005910D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS89V39Z7K;
+				INFOPLIST_FILE = "成都生活展/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pu.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D1BFE881FC0473B005910D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS89V39Z7K;
+				INFOPLIST_FILE = "成都生活展/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pu.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1BFE6F1FC0473B005910D5 /* Build configuration list for PBXProject "成都生活展" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BFE841FC0473B005910D5 /* Debug */,
+				8D1BFE851FC0473B005910D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1BFE861FC0473B005910D5 /* Build configuration list for PBXNativeTarget "成都生活展" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BFE871FC0473B005910D5 /* Debug */,
+				8D1BFE881FC0473B005910D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D1BFE6C1FC0473B005910D5 /* Project object */;
+}

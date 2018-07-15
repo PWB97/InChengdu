@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="funVCCell" customModule="成都生活展" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="741" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="741" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="宽窄巷子.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oJw-AC-d0s">
+                        <rect key="frame" x="8" y="8" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Ixq-wV-E8Y"/>
+                            <constraint firstAttribute="height" constant="80" id="oM2-8e-iKa"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRv-Zp-hXF">
+                        <rect key="frame" x="96" y="8" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SSN-SX-MKC">
+                        <rect key="frame" x="96" y="72" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mt-Rn-ohm">
+                        <rect key="frame" x="96" y="37" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oJw-AC-d0s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="HpN-AW-sXO"/>
+                    <constraint firstItem="SSN-SX-MKC" firstAttribute="bottom" secondItem="oJw-AC-d0s" secondAttribute="bottom" id="X9s-lz-xzk"/>
+                    <constraint firstItem="oRv-Zp-hXF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aSW-aZ-bak"/>
+                    <constraint firstItem="oJw-AC-d0s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="abw-yX-N3k"/>
+                    <constraint firstItem="oRv-Zp-hXF" firstAttribute="leading" secondItem="oJw-AC-d0s" secondAttribute="trailing" constant="8" id="dsm-Kc-57K"/>
+                    <constraint firstItem="8Mt-Rn-ohm" firstAttribute="top" secondItem="oRv-Zp-hXF" secondAttribute="bottom" constant="8" id="e3B-wW-n3v"/>
+                    <constraint firstItem="8Mt-Rn-ohm" firstAttribute="leading" secondItem="oJw-AC-d0s" secondAttribute="trailing" constant="8" id="oEB-n2-Z4x"/>
+                    <constraint firstItem="SSN-SX-MKC" firstAttribute="leading" secondItem="oJw-AC-d0s" secondAttribute="trailing" constant="8" id="uy7-40-p7J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressL" destination="SSN-SX-MKC" id="ty3-gC-InE"/>
+                <outlet property="phoneL" destination="8Mt-Rn-ohm" id="MIi-WC-Q6j"/>
+                <outlet property="spotImage" destination="oJw-AC-d0s" id="1Ky-Vo-ZTA"/>
+                <outlet property="titleL" destination="oRv-Zp-hXF" id="llI-vY-f3X"/>
+            </connections>
+            <point key="canvasLocation" x="294.5" y="51"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="宽窄巷子.jpg" width="283" height="288"/>
+    </resources>
+</document>
